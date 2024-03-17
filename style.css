@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+/*common css end*/
+body{
+    font-family:"open sans" sans-serif;
+}
+
+
+body{
+    font-family:"open sans" sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+/*common css end*/
+/*=== nav saction css start===*/
+
+#nav .container{
+justify-content: space-between;
+    align-items: center;
+}
+#nav{
+    background-color:#02918c;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+#nav li a{
+    font-size: 12px;
+    line-height: 59px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 21px 25px;
+    display: inline-block;
+}
+#nav li a:hover{
+    color: rgba(242, 255, 0, 0.861);
+}
+/*=== nav section css end===*/
+/*==banner section css start==*/
+#banner{
+    background-size: cover;
+    height: 728px;
+    text-align: center;
+    color: #fff;
+}
+.row{
+    display: flex;
+}
+.container{
+    margin: auto;
+}
+#banner h4{
+font-size: 30px;
+width: 400;
+line-height: 25px;
+}
+#banner h1{
+ font-size: 68px;
+ line-height: 75px;
+ text-transform: uppercase; 
+ font-weight: 800;
+ letter-spacing: 25px;
+}
+#banner p{
+ font-size: 18px;
+ line-height: 33px;  
+}
+#banner img{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    
+}
+#banner a{
+    background-color: yellow;
+    height: 100px ;
+    width: 50px;
+    padding: 5px;
+    text-transform: uppercase
+}
+#banner a :hover{
+    height: 100px;
+    color: red;
+    
+}
+
+
+/*== banner section css end==*/
+/*--about section css start--*/
+#about{
+    text-align: center;
+}
+#about.section_info h2{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+
+}
+#about.section_info p{
+    
+}
+#about.section_info p b{
+    
+}
+#about.about_card_wraffer{
+
+}
+#about.about_card{
+    width: 25%;
+}
+/*--about section css end--*/
+/*--service section css start--*/
+#service{
+    background-image: url(image/bannar\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+/*--service section css end--*/
